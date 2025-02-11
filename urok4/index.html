@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="coteiner">
+        <div class="coteiner1">
+
+            <div class="menu">
+    
+                <img class="menu_img" src="imges/photo_2025-02-10_19-04-35.jpg">
+                <h2>Todo App</h2>
+                <img class="imgg" src="imges/photo_2025-02-10_19-08-18.jpg">
+            </div>
+    
+            <div class="box">
+                <div class="box1">
+                    <h4>work</h4>
+                    <button class="btn" >2</button>
+                    <div class="box3">
+                        <button class="btn1" ></button>
+                        <div class="text">
+                            <h3>Finish quarterly repot</h3>
+                            <p>Due: 2023-06-15</p>
+                        </div>
+                        <button class="btn2"><img class="img1" src="imges/photo_2025-02-11_15-39-16.jpg" alt=""></button>
+                        <button class="btn2" ><img class="img1" src="imges/photo_2025-02-11_15-39-49.jpg" alt=""></button>
+                    </div>
+                    <div class="box3">
+                        <button class="btn1" ></button>
+                        <div class="text">
+                            <h3>Finish quarterly repot</h3>
+                            <p>Due: 2023-05-25</p>
+                        </div>
+                        <button class="btn2"><img class="img1" src="imges/photo_2025-02-11_15-39-16.jpg" alt=""></button>
+                        <button class="btn2" ><img class="img1" src="imges/photo_2025-02-11_15-39-49.jpg" alt=""></button>
+                    </div>
+    
+                </div>
+                <div class="box2">
+                    <h4>personal</h4>
+                    <button class="btn" >2</button>
+                    <div class="box3">
+                        <button class="btn1" ></button>
+                        <div class="text">
+                            <h3>Finish quarterly repot</h3>
+                            <p>Due: 2023-05-20</p>
+                        </div>
+                        <button class="btn2"><img class="img1" src="imges/photo_2025-02-11_15-39-16.jpg" alt=""></button>
+                        <button class="btn2" ><img class="img1" src="imges/photo_2025-02-11_15-39-49.jpg" alt=""></button>
+                    </div>
+                    <div class="box3">
+                        <button class="btn1" ></button>
+                        <div class="text">
+                            <h3>Finish quarterly repot</h3>
+                            <p>Due: 2023-06-01</p>
+                        </div>
+                        <button class="btn2"><img class="img1" src="imges/photo_2025-02-11_15-39-16.jpg" alt=""></button>
+                        <button class="btn2" ><img class="img1" src="imges/photo_2025-02-11_15-39-49.jpg" alt=""></button>
+                    </div>
+    
+                </div>
+            </div>
+
+            <div class="button-container">
+                <button class="fix" >Cancel</button>
+            </div>
+            <div class="text_con">
+                <h2></h2>
+            </div>
+
+        </div>
+
+
+    </div>
+
+
+
+
+    <script src="index.js"></script>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .first{
+            width: 200px;
+            height: 100px;
+            border: 1px solid orange;
+        }
+
+        .second{
+            width: 200px;
+            height: 100px;
+            border: 1px solid orange;
+        }
+
+        body{
+            display: flex;
+            gap: 20px;
+        }
+        img{
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="first">
+        <img id="image" draggable="true" src="https://avatars.mds.yandex.net/i?id=581fa7fdc565a630907d513fe35da2d7_l-10893744-images-thumbs&n=13" alt="">
+    </div>
+    <div class="second">
+
+    </div>
+    <script>
+        const div2 = document.querySelector(`.second`)
+        const image = document.querySelector('img')
+        image.ondragstart = (e) => {
+            e.dataTransfer.setData(`text`, e.target.id)
+        }
+
+        div2.ondragover = (e) => {
+            e.preventDefault()
+        }
+
+        div2.ondrop = (e) => {
+            e.preventDefault()
+            
+            const id = e.dataTransfer.getData(`text`)
+            div2.appendChild(document.querySelector(`#${id}`))
+        }
+
+        const div1 = document.querySelector(`.first`)
+        div1.ondragover = (e) => {
+            e.preventDefault()
+        }
+
+        div1.ondrop = (e) => {
+            e.preventDefault()
+            const id = e.dataTransfer.getData(`text`)
+            div1.appendChild(document.querySelector(`#${id}`))
+        }
+    </script>
+</body>
+</html>
+ -->
